@@ -1,11 +1,7 @@
-import QuizApp from "./Lab3/QuizApp";
+import Quiz from "./Lab4/Quiz";
 
 function App() {
-    return (
-        <>
-            <QuizApp />
-        </>
-    );
+    return <Quiz />;
 }
 
 export default App;
