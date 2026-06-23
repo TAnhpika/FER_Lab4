@@ -29,11 +29,11 @@ function QuestionInput({ onAddQuestion }) {
             <input className="input-field" value={question} onChange={(e) => setQuestion(e.target.value)} placeholder="Nhập câu hỏi..." />
 
             <label className="input-label">Đáp án 1</label>
-            <input className="input-field" value={answer1} onChange={(e) => setAnswer1(e.target.value)} />
+            <input className="input-field" value={answer1} onChange={(e) => setAnswer1(e.target.value)} placeholder="Nhập đáp án 1..."/>
             <label className="input-label">Đáp án 2</label>
-            <input className="input-field" value={answer2} onChange={(e) => setAnswer2(e.target.value)} />
+            <input className="input-field" value={answer2} onChange={(e) => setAnswer2(e.target.value)} placeholder="Nhập đáp án 2..."/>
             <label className="input-label">Đáp án 3</label>
-            <input className="input-field" value={answer3} onChange={(e) => setAnswer3(e.target.value)} />
+            <input className="input-field" value={answer3} onChange={(e) => setAnswer3(e.target.value)} placeholder="Nhập đáp án 3..."/>
 
             <label className="input-label">Đáp án đúng</label>
             <select className="input-field" value={correctAnswer} onChange={(e) => setCorrectAnswer(e.target.value)}>
